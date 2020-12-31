@@ -1,0 +1,103 @@
+Enter the file name in which the data store should be made available:Testing
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+1
+Enter the keyRecord1
+Enter the json object(in json format){"Attribute1":"Value1"}
+The values have been uploaded to the Datastore          #Record created
+Do you wish to set a time-to-live property for this record?(yes/no)no
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+1
+Enter the keyRecord1
+Datastore already has similar key.Please choose something else!   #Exception handled 
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+1
+Enter the keyRecord2
+Enter the json object(in json format){"Attribute2":"Value2"}
+The values have been uploaded to the Datastore                    #Record created
+Do you wish to set a time-to-live property for this record?(yes/no)no
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+1
+Enter the keyRecord3
+Enter the json object(in json format){"Attribute3":"Value3"}
+The values have been uploaded to the Datastore                   #Record created
+Do you wish to set a time-to-live property for this record?(yes/no)yes
+Enter time in seconds20
+Record with key Record3  will be deleted after  20  seconds      #Timer to delete this record has been set
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+1
+Enter the keyRecord4
+Enter the json object(in json format){"Attribute4":"Value4"}
+The values have been uploaded to the Datastore                  #Record created
+Do you wish to set a time-to-live property for this record?(yes/no)no
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+1
+Enter the keyRecord5
+Enter the json object(in json format){"Attribute5":"Value5"}
+The values have been uploaded to the Datastore            #Record created
+Do you wish to set a time-to-live property for this record?(yes/no)no
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+2
+Enter the key
+Record3                                                 #Record 3 was successfully deleted after the timer
+No such key found.Please enter a valid key!             #Exception handled
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+2
+Enter the key
+Record4                
+{'Attribute4': 'Value4'}                                #Record 4 is displayed as json object
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+3
+Enter the key
+Record6
+No such key found.Please enter a valid key               #Exception handled
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+3
+Enter the key
+Record1
+Record has been deleted from the Datastore              #Record 1 was deleted(json file after execution is attached)
+What do you want to do?
+Press 1 to CREATE a record
+Press 2 to READ an existing record
+Press 3 to DELETE an existing record
+Press 4 to EXIT
+4
